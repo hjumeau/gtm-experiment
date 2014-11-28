@@ -1,0 +1,8 @@
+{
+  "name": "gtm-experiment",
+  "dependencies": {
+    "angular": "1.2.x",
+  	"jquery": "1.10.2",
+  	"angular-route": "~1.2.x"
+  }
+}

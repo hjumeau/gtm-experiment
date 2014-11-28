@@ -1,0 +1,22 @@
+{
+  "name": "gtm-experiment",
+  "description": "Expriement angular for gtm project",
+  "version": "0.0.1",
+  "author": {
+    "name": "Harry JUMEAU",
+    "url": "https://github.com/hjumeau/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hjumeau/gtm-experiment.git"
+  },
+  "engines": {
+    "node": "0.10.30",
+    "npm": "1.4.21"
+  },
+  "dependencies": {
+    "express": "~4.9.5",
+    "body-parser": "^1.9.0",
+    "bower": "~1.3.2"
+  }
+}

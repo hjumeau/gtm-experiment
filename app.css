@@ -1,0 +1,13 @@
+form {	
+  width: 350px;
+}
+form label {
+  display: inline-block;
+  vertical-align: middle;
+  width: 150px;
+  margin-bottom: 20px;
+}
+form input {	
+  vertical-align: middle;
+  margin-bottom: 20px;
+}
