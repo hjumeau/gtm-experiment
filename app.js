@@ -1,5 +1,5 @@
 var gtmApp = angular.module('gtmApp', 
-  ['ngRoute', 'gtmAppControllers']
+  ['ngRoute', 'gtmAppControllers', 'gtmAppServices']
 );
 
 gtmApp.config(['$routeProvider',
@@ -9,11 +9,14 @@ gtmApp.config(['$routeProvider',
         templateUrl: 'partials/subscribe.html',
         controller: 'FormCtrl'
       }).
-      when('/subscribe/valid', {
-        templateUrl: 'partials/subscribe-valid.html'
+      when('/unsubscribe', {
+        resolve: {redirect: 'redirectService'}
       }).
       when('/unsubscribe/valid', {
         templateUrl: 'partials/unsubscribe-valid.html'
+      }).
+      when('/unsubscribe/error', {
+        templateUrl: 'partials/unsubscribe-error.html'
       }).
       otherwise({
         redirectTo: '/subscribe'
